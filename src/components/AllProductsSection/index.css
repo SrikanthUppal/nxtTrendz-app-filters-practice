@@ -1,0 +1,134 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.no-products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.no-products-image {
+  width: 226px;
+}
+.no-products-text {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.no-products-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+@media (min-width: 768px) {
+  .no-products-container {
+    width: 70%;
+    height: 70vh;
+  }
+  .no-products-image {
+    width: 276px;
+  }
+  .no-products-text {
+    font-size: 20px;
+  }
+  .no-products-description {
+    font-size: 17px;
+  }
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.failure-image {
+  width: 226px;
+}
+.failure-text {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.failure-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+@media (min-width: 768px) {
+  .failure-container {
+    width: 70%;
+    height: 70vh;
+  }
+  .failure-image {
+    width: 236px;
+  }
+  .failure-text {
+    font-size: 18px;
+    width: 60%;
+  }
+  .failure-description {
+    font-size: 16px;
+    width: 60%;
+  }
+}
